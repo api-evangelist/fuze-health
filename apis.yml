@@ -1,8 +1,26 @@
 aid: fuze-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fuze-health.png
 name: Fuze Health
-description: 'Fuze Health is a company surfaced as a portfolio company of softbank-vision-fund and added
-  to the API Evangelist network as a stub for enrichment. Sector: health-tech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Fuze Health is a technology-powered healthcare company delivering comprehensive,
+  patient-focused care at scale across three business units: FuzeRx (digital pharmacy
+  and prescription fulfillment with patient engagement tools), Fuze Services (diagnostics,
+  screening, clinical and genomics programs), and Fuze Technologies (proprietary healthcare
+  software and consulting for partners). The company operates a unified digital platform
+  that simplifies access, strengthens engagement, and supports patients throughout
+  their care journeys, and reports serving 22 million patients, delivering 31 million
+  prescriptions, and reaching 90% payer coverage. Fuze Health is backed by SoftBank
+  Vision Fund. No public API or developer surface is published at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/fuze-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +30,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Health Tech
+- Healthcare
+- Digital Pharmacy
+- Prescription Fulfillment
+- Diagnostics
+- Patient Engagement
 apis: []
+common:
+- type: DomainSecurity
+  url: security/fuze-health-domain-security.yml
+- type: Website
+  url: https://fuzehealth.com
+- type: PrivacyPolicy
+  url: https://fuzehealth.com/privacy-policy/
+- type: TermsOfService
+  url: https://fuzehealth.com/terms-of-use/
+- type: Support
+  url: https://fuzehealth.com/contact-us/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
