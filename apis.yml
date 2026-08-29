@@ -33,6 +33,9 @@ description: 'Fuze Health is a technology-powered healthcare company delivering 
   prescriptions, and reaching 90% payer coverage. Fuze Health is backed by SoftBank
   Vision Fund. No public API or developer surface is published at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/fuze-health/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "No public API or developer surface is published at this time."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
